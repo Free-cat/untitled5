@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uuid: MyString
+  code: MyString
+  barCodes: MyString
+  name: MyString
+  price: 1.5
+  quantity: 1
+  costPrice: 1.5
+
+two:
+  uuid: MyString
+  code: MyString
+  barCodes: MyString
+  name: MyString
+  price: 1.5
+  quantity: 1
+  costPrice: 1.5

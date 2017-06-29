@@ -16,6 +16,7 @@ gem 'http-cookie', '~> 1.0', '>= 1.0.3'
 gem 'mime-types', '~> 3.1'
 gem 'netrc', '~> 0.11.0'
 gem 'rest-client', '~> 2.0', '>= 2.0.2'
+gem 'whenever', require: false
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production

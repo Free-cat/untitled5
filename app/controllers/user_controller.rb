@@ -34,7 +34,7 @@ class UserController < ApplicationController
   def verify
     require 'rest-client'
     response = RestClient.post 'http://admin.carex.su/user_sessions.json', {'user_session[login]' => 'admin', 'user_session[password]' => 'Susadi0123455'}
-
+    @current_user = User.where(:userUuid => params[:userUuid]).take
     response2 = RestClient.get('http://admin.carex.su/supplier_order_items/income.json', {:cookies => response.cookies})
 
     @test = JSON.parse(response2.body)
